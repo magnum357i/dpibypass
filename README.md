@@ -6,13 +6,14 @@ DPI yoluyla bloke edilen sitelere girmek mi istiyorsunuz? Doğru adresteniz.
 
 ### Kurulum
 1. Ağ ayarlarınıza gidip DNS olarak 1.1.1.1 / 1.0.0.1 (Cloudflare DNS) giriniz.
-2. GoodbyeDPI'yı indirip dosyaları bir yere çıkartın. Dosyaları silmeyeceğiniz bir yer olmak zorunda. (**C:\GoodbyeDPI** olabilir.)
+2. GoodbyeDPI'ı indirip dosyaları bir yere çıkartın. Dosyalar silmeyeceğiniz bir yerde olmak zorunda. (**C:\GoodbyeDPI** olabilir.)
 3. **service_install_turkey_dnsredir.cmd** dosyasını o dizine taşıyın ve yönetici olarak çalıştırın.
 
 Artık DPI yoluyla yasaklanmış her siteye girebilirsiniz.
 
 ### Kaldırmak
 1. **service_remove.cmd** dosyasını (indireceğiniz goodbyedpi içinde) yönetici olarak çalıştırın.
+2. GoodbyeDPI klasörünüzü silin.
 
 Kontrol için services.msc'ye gidip GoodbyeDPI servisi duruyor mu bakabilirsiniz.
 
